@@ -33,7 +33,7 @@ A simple iOS application to help locate your AirPods using Bluetooth signal stre
 
 1. Clone the repository
 ```bash
-git clone https://github.com/speedyfriend67/FMAirPods.git```
+git clone https://github.com/speedyfriend67/FMAirPods.git
 
 2. Open FMAirPods.xcodeproj in Xcode
 
