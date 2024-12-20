@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E24A9B92D158C9F00748366 /* FMAirpodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24A9B82D158C9F00748366 /* FMAirpodsApp.swift */; };
+		8E24A9BB2D158C9F00748366 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24A9BA2D158C9F00748366 /* ContentView.swift */; };
+		8E24A9BD2D158CA200748366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E24A9BC2D158CA200748366 /* Assets.xcassets */; };
+		8E24A9C02D158CA200748366 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E24A9BF2D158CA200748366 /* Preview Assets.xcassets */; };
+		8E24A9CA2D158CA200748366 /* FMAirpodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24A9C92D158CA200748366 /* FMAirpodsTests.swift */; };
+		8E24A9D42D158CA200748366 /* FMAirpodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24A9D32D158CA200748366 /* FMAirpodsUITests.swift */; };
+		8E24A9D62D158CA200748366 /* FMAirpodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24A9D52D158CA200748366 /* FMAirpodsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E24A9C62D158CA200748366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E24A9AD2D158C9F00748366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E24A9B42D158C9F00748366;
+			remoteInfo = FMAirpods;
+		};
+		8E24A9D02D158CA200748366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E24A9AD2D158C9F00748366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E24A9B42D158C9F00748366;
+			remoteInfo = FMAirpods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E24A9B52D158C9F00748366 /* FMAirpods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMAirpods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E24A9B82D158C9F00748366 /* FMAirpodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAirpodsApp.swift; sourceTree = "<group>"; };
+		8E24A9BA2D158C9F00748366 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E24A9BC2D158CA200748366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E24A9BF2D158CA200748366 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E24A9C52D158CA200748366 /* FMAirpodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMAirpodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E24A9C92D158CA200748366 /* FMAirpodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAirpodsTests.swift; sourceTree = "<group>"; };
+		8E24A9CF2D158CA200748366 /* FMAirpodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMAirpodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E24A9D32D158CA200748366 /* FMAirpodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAirpodsUITests.swift; sourceTree = "<group>"; };
+		8E24A9D52D158CA200748366 /* FMAirpodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAirpodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E24A9B22D158C9F00748366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24A9C22D158CA200748366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24A9CC2D158CA200748366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E24A9AC2D158C9F00748366 = {
+			isa = PBXGroup;
+			children = (
+				8E24A9B72D158C9F00748366 /* FMAirpods */,
+				8E24A9C82D158CA200748366 /* FMAirpodsTests */,
+				8E24A9D22D158CA200748366 /* FMAirpodsUITests */,
+				8E24A9B62D158C9F00748366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E24A9B62D158C9F00748366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E24A9B52D158C9F00748366 /* FMAirpods.app */,
+				8E24A9C52D158CA200748366 /* FMAirpodsTests.xctest */,
+				8E24A9CF2D158CA200748366 /* FMAirpodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E24A9B72D158C9F00748366 /* FMAirpods */ = {
+			isa = PBXGroup;
+			children = (
+				8E24A9B82D158C9F00748366 /* FMAirpodsApp.swift */,
+				8E24A9BA2D158C9F00748366 /* ContentView.swift */,
+				8E24A9BC2D158CA200748366 /* Assets.xcassets */,
+				8E24A9BE2D158CA200748366 /* Preview Content */,
+			);
+			path = FMAirpods;
+			sourceTree = "<group>";
+		};
+		8E24A9BE2D158CA200748366 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E24A9BF2D158CA200748366 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E24A9C82D158CA200748366 /* FMAirpodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E24A9C92D158CA200748366 /* FMAirpodsTests.swift */,
+			);
+			path = FMAirpodsTests;
+			sourceTree = "<group>";
+		};
+		8E24A9D22D158CA200748366 /* FMAirpodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E24A9D32D158CA200748366 /* FMAirpodsUITests.swift */,
+				8E24A9D52D158CA200748366 /* FMAirpodsUITestsLaunchTests.swift */,
+			);
+			path = FMAirpodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E24A9B42D158C9F00748366 /* FMAirpods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E24A9D92D158CA200748366 /* Build configuration list for PBXNativeTarget "FMAirpods" */;
+			buildPhases = (
+				8E24A9B12D158C9F00748366 /* Sources */,
+				8E24A9B22D158C9F00748366 /* Frameworks */,
+				8E24A9B32D158C9F00748366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMAirpods;
+			productName = FMAirpods;
+			productReference = 8E24A9B52D158C9F00748366 /* FMAirpods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E24A9C42D158CA200748366 /* FMAirpodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E24A9DC2D158CA200748366 /* Build configuration list for PBXNativeTarget "FMAirpodsTests" */;
+			buildPhases = (
+				8E24A9C12D158CA200748366 /* Sources */,
+				8E24A9C22D158CA200748366 /* Frameworks */,
+				8E24A9C32D158CA200748366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E24A9C72D158CA200748366 /* PBXTargetDependency */,
+			);
+			name = FMAirpodsTests;
+			productName = FMAirpodsTests;
+			productReference = 8E24A9C52D158CA200748366 /* FMAirpodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E24A9CE2D158CA200748366 /* FMAirpodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E24A9DF2D158CA200748366 /* Build configuration list for PBXNativeTarget "FMAirpodsUITests" */;
+			buildPhases = (
+				8E24A9CB2D158CA200748366 /* Sources */,
+				8E24A9CC2D158CA200748366 /* Frameworks */,
+				8E24A9CD2D158CA200748366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E24A9D12D158CA200748366 /* PBXTargetDependency */,
+			);
+			name = FMAirpodsUITests;
+			productName = FMAirpodsUITests;
+			productReference = 8E24A9CF2D158CA200748366 /* FMAirpodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E24A9AD2D158C9F00748366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8E24A9B42D158C9F00748366 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8E24A9C42D158CA200748366 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8E24A9B42D158C9F00748366;
+					};
+					8E24A9CE2D158CA200748366 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8E24A9B42D158C9F00748366;
+					};
+				};
+			};
+			buildConfigurationList = 8E24A9B02D158C9F00748366 /* Build configuration list for PBXProject "FMAirpods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E24A9AC2D158C9F00748366;
+			productRefGroup = 8E24A9B62D158C9F00748366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E24A9B42D158C9F00748366 /* FMAirpods */,
+				8E24A9C42D158CA200748366 /* FMAirpodsTests */,
+				8E24A9CE2D158CA200748366 /* FMAirpodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E24A9B32D158C9F00748366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E24A9C02D158CA200748366 /* Preview Assets.xcassets in Resources */,
+				8E24A9BD2D158CA200748366 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24A9C32D158CA200748366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24A9CD2D158CA200748366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E24A9B12D158C9F00748366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E24A9BB2D158C9F00748366 /* ContentView.swift in Sources */,
+				8E24A9B92D158C9F00748366 /* FMAirpodsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24A9C12D158CA200748366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E24A9CA2D158CA200748366 /* FMAirpodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24A9CB2D158CA200748366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E24A9D62D158CA200748366 /* FMAirpodsUITestsLaunchTests.swift in Sources */,
+				8E24A9D42D158CA200748366 /* FMAirpodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E24A9C72D158CA200748366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E24A9B42D158C9F00748366 /* FMAirpods */;
+			targetProxy = 8E24A9C62D158CA200748366 /* PBXContainerItemProxy */;
+		};
+		8E24A9D12D158CA200748366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E24A9B42D158C9F00748366 /* FMAirpods */;
+			targetProxy = 8E24A9D02D158CA200748366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E24A9D72D158CA200748366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E24A9D82D158CA200748366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E24A9DA2D158CA200748366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FMAirpods/Preview Content\"";
+				DEVELOPMENT_TEAM = 625H9BYZCZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs Bluetooth access to find your AirPods";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to track where your AirPods were last seen";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.FMAirpods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E24A9DB2D158CA200748366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FMAirpods/Preview Content\"";
+				DEVELOPMENT_TEAM = 625H9BYZCZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs Bluetooth access to find your AirPods";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to track where your AirPods were last seen";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.FMAirpods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E24A9DD2D158CA200748366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 625H9BYZCZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.FMAirpodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMAirpods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FMAirpods";
+			};
+			name = Debug;
+		};
+		8E24A9DE2D158CA200748366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 625H9BYZCZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.FMAirpodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMAirpods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FMAirpods";
+			};
+			name = Release;
+		};
+		8E24A9E02D158CA200748366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 625H9BYZCZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.FMAirpodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FMAirpods;
+			};
+			name = Debug;
+		};
+		8E24A9E12D158CA200748366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 625H9BYZCZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.FMAirpodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FMAirpods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E24A9B02D158C9F00748366 /* Build configuration list for PBXProject "FMAirpods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24A9D72D158CA200748366 /* Debug */,
+				8E24A9D82D158CA200748366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E24A9D92D158CA200748366 /* Build configuration list for PBXNativeTarget "FMAirpods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24A9DA2D158CA200748366 /* Debug */,
+				8E24A9DB2D158CA200748366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E24A9DC2D158CA200748366 /* Build configuration list for PBXNativeTarget "FMAirpodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24A9DD2D158CA200748366 /* Debug */,
+				8E24A9DE2D158CA200748366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E24A9DF2D158CA200748366 /* Build configuration list for PBXNativeTarget "FMAirpodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24A9E02D158CA200748366 /* Debug */,
+				8E24A9E12D158CA200748366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E24A9AD2D158C9F00748366 /* Project object */;
+}
